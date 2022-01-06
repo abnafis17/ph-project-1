@@ -9,6 +9,11 @@ h1 {
     padding-bottom: 0;
     padding-left: 10px;
 }
+h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
 p{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -25,15 +30,23 @@ a {
 span {
     color: #2980b9;
 }
+section{
+    margin: 30px 0;
 
-.header .stay-focus-text {
-    width: 50%;
 }
 .container {
     width: 80%;
     margin: auto;
+}
+
+.header-box {
     display: flex;
 }
+
+.header .stay-focus-text {
+    width: 50%;
+}
+
 .header-img {
     width: 50%;
     margin-left: 20px;
@@ -41,5 +54,45 @@ span {
 }
 .header-img img {
     width: 75%;
+    height: auto;
+}
+
+.m-v-g {
+    display: flex;
+    padding: 0 20px;
+}
+.m-v-g p {
+    text-align: justify;
+}
+.mission {
+    width: 33%;
+    margin-right: 15px;
+    padding: 0 10px;
+    background-color: rgb(223, 249, 251);
+    border-radius: 5px;
+}
+.mission img {
+    width: 40%;
+    height: auto;
+}
+.vision {
+    width: 33%;
+    margin-right: 15px;
+    padding: 0 10px;
+    background-color: rgb(255, 121, 121, 0.2);
+    border-radius: 5px;
+}
+.vision img {
+    width: 40%;
+    height: auto;
+}
+.goal {
+    width: 33%;
+    padding: 0 10px;
+    background-color: rgb(255, 190, 118, 0.2);
+    border-radius: 5px;
+}
+.goal img {
+    width: 40%;
     height: auto;
 }
