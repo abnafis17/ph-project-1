@@ -140,3 +140,20 @@ section{
     width: 90%;
     height: auto;
 }
+
+.footer {
+    background-color: #34495e;
+    padding: 20px 0;
+}
+.footer h2 {
+    margin: 0;
+    padding: 0;
+}
+.footer-m {
+    color: #eb4d4b;
+}
+.footer p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
